@@ -1,6 +1,6 @@
 # Portfolio-dev
 
-taka のポートフォリオサイトです(https://portfoliosite-dev.netlify.com)
+taka のポートフォリオサイトです(https://takaportfoliosite.netlify.com)
 
 # 使用したもの
 
