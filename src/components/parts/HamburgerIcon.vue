@@ -60,17 +60,17 @@ span {
 }
 
 .border__top--true {
-  animation: top 0.8s ease-in-out;
+  animation: top 0.6s ease;
   transform: rotate(-45deg);
 }
 
 .border__middle--true {
-  animation: middle 0.8s ease-in-out;
+  animation: middle 0.6s ease;
   opacity: 0;
 }
 
 .border__bottom--true {
-  animation: bottom 0.8s ease-in-out;
+  animation: bottom 0.6s ease;
   transform: rotate(45deg);
 }
 
@@ -80,7 +80,7 @@ span {
   }
 
   to {
-    transform: rotate(315deg);
+    transform: rotate(45deg);
   }
 }
 
@@ -90,7 +90,7 @@ span {
   }
 
   to {
-    opacity: ０;
+    opacity: 0;
   }
 }
 
@@ -100,7 +100,7 @@ span {
   }
 
   to {
-    transform: rotate(-315deg);
+    transform: rotate(-45deg);
   }
 }
 </style>
