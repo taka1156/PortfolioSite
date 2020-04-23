@@ -1,0 +1,37 @@
+{
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "plugin:prettier/recommended",
+    "prettier/vue"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {},
+  "rules": {
+    "camelcase": [
+      2,
+      {
+        "properties": "always"
+      }
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "eqeqeq": 2,
+    "prefer-const": 2,
+    "vue/component-name-in-template-casing": "off"
+  }
+}
