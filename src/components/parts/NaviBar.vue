@@ -86,15 +86,13 @@ export default {
   justify-content: space-between;
   height: 90%;
   width: 95%;
-  margin: 0.5em ;
-  border: solid 0.3px red;
+  margin: 0.5em auto;
 }
 
 .navbar__brand {
   display: block;
-  margin: 0.5em;
+  margin: 0.25em 0 0.25em;
   font-size: 1.3em;
-  border: solid 0.5px green;
 }
 
 .navbar__toggle {
@@ -107,6 +105,7 @@ export default {
   height: 100%;
   width: 100%;
 }
+
 .navbar__icon--open {
   animation: anime-open 0.2s linear;
 }

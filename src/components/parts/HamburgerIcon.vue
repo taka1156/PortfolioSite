@@ -31,10 +31,11 @@ export default {
 
 <style scoped>
 .border__group {
-  position: relative;
+  position: fixed;
+  top: 5;
+  right: 0;
   width: 50px;
   height: 50px;
-  border: solid 0.5px gold;
 }
 
 span {
