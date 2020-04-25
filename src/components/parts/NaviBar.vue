@@ -105,6 +105,7 @@ export default {
   height: 100%;
   width: 100%;
 }
+
 .navbar__icon--open {
   animation: anime-open 0.2s linear;
 }

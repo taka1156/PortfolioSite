@@ -44,6 +44,14 @@
         </section>
 
         <section class="contents">
+          <h2 class="contents__title">githubの活動</h2>
+          <img
+            src="https://grass-graph.moshimo.works/images/taka1156.png?background=none"
+            class="contents__box"
+          />
+        </section>
+
+        <section class="contents">
           <h2 class="contents__title">資格一覧</h2>
           <table class="contents__box">
             <tbody v-for="(skill, index) in Skills" :key="index">
@@ -115,7 +123,7 @@ export default {
 
 .contents__box {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 
 @media (min-width: 790px) {
