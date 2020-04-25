@@ -86,13 +86,15 @@ export default {
   justify-content: space-between;
   height: 90%;
   width: 95%;
-  margin: 0.5em auto;
+  margin: 0.5em ;
+  border: solid 0.3px red;
 }
 
 .navbar__brand {
   display: block;
-  margin: 0.25em 0 0.25em;
+  margin: 0.5em;
   font-size: 1.3em;
+  border: solid 0.5px green;
 }
 
 .navbar__toggle {
