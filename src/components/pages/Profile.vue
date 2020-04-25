@@ -124,7 +124,6 @@ export default {
 .contents__box {
   margin: 0 auto;
   width: 90%;
-  border: solid 0.3px red;
 }
 
 @media (min-width: 790px) {
