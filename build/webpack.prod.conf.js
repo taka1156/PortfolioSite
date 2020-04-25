@@ -50,10 +50,9 @@ const webpackConfig = merge(baseWebpackConfig, {
       'process.env': env
     }),
     new UglifyJsPlugin({
+      // https://github.com/mishoo/UglifyJS2/issues/3394#issuecomment-488668042
       uglifyOptions: {
-        compress: {
-          warnings: false
-        }
+        warnings: false
       },
       sourceMap: config.build.productionSourceMap,
       parallel: true
