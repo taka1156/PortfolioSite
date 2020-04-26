@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import CardList from '@/components/parts/CardList';
+import CardList from '@/components/parts/Card/CardList';
 
 export default {
   name: 'Portfolio',
