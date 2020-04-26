@@ -7,7 +7,7 @@
         <a href="https://github.com/taka1156" class="other__link">
           <img src="@/assets/github.png" value="github" class="other__icon" />
         </a>
-        <a href="https://qiita.com/Taka56110" class="other__link">
+        <a href="https://qiita.com/taka_1156" class="other__link">
           <img src="@/assets/qiita.png" value="Qiita" class="other__icon" />
         </a>
         <a href="https://mobile.twitter.com/taka_Program" class="other__link">
