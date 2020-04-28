@@ -3,8 +3,8 @@
     <nav>
       <div class="navbar">
         <div class="navbar__box">
-          <a class="navbar__brand" href="#">Taka'sPortfolioSite</a>
-          <div class="navbar__toggle" @click="changeState">
+          <a class="navbar__brand" href="/">Taka'sPortfolioSite</a>
+          <div @click="changeState">
             <hamberger-icon :is-open="isOpen" />
           </div>
         </div>
@@ -75,8 +75,8 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   height: 60px;
+  width: 100%;
   background-color: rgba(12, 12, 12, 0.9);
   z-index: 2;
 }
@@ -85,20 +85,14 @@ export default {
   display: flex;
   justify-content: space-between;
   height: 90%;
-  width: 95%;
+  width: 100%;
   margin: 0.5em auto;
 }
 
 .navbar__brand {
-  display: block;
-  margin: 0.25em 0 0.25em;
+  height: 30px;
+  margin-top: 10px;
   font-size: 1.3em;
-}
-
-.navbar__toggle {
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
 }
 
 .navbar__icon {

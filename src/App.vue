@@ -42,10 +42,8 @@ export default {
 }
 
 .prevent-scroll {
-  /*
   position: fixed;
   right: 0;
   left: 0;
-  */
 }
 </style>

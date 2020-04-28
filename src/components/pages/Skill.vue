@@ -26,11 +26,11 @@ export default {
           url: './portfolio/php'
         },
         {
-          name: 'laravel',
+          name: 'Laravel',
           image: require('@/assets/plang_logo/laravel.svg'),
           contents1: '1~2ヶ月',
           contents2:
-            'vueとの相性がよく、情報も多いので積極的に勉強しています。\nlaradockなども触れています。',
+            'vueと連携した情報も多いので積極的に勉強しています。laradockなども触れています。',
           url: './portfolio/laravel'
         },
         {
