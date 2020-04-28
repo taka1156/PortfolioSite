@@ -75,8 +75,8 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   height: 60px;
+  width: 100%;
   background-color: rgba(12, 12, 12, 0.9);
   z-index: 2;
 }
@@ -85,12 +85,12 @@ export default {
   display: flex;
   justify-content: space-between;
   height: 90%;
-  width: 95%;
+  width: 100%;
   margin: 0.5em auto;
 }
 
 .navbar__brand {
-  height: 60%;
+  height: 30px;
   margin-top: 10px;
   font-size: 1.3em;
 }

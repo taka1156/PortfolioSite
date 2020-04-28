@@ -32,10 +32,10 @@ export default {
 <style scoped>
 .border__group {
   position: relative;
-  top: 5;
+  top: 0;
   right: 0;
-  width: 50px;
   height: 50px;
+  width: 50px;
   cursor: pointer;
 }
 
