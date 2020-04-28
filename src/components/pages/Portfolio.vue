@@ -26,7 +26,7 @@ export default {
         {
           name: 'ポートフォリオサイト',
           image: require('@/assets/portfolio/portfolio.png'),
-          contents1: 'Vue.js、BootStrap4',
+          contents1: 'Vue.js',
           contents2:
             'このサイトです。googleのマテリアルアイコンやフォントを利用しています。',
           url: '#'
@@ -49,7 +49,7 @@ export default {
         {
           name: 'チャットサイト',
           image: require('@/assets/portfolio/chat.png'),
-          contents1: 'Vue.js、Vuetify、firebase、BootStrap4',
+          contents1: 'Vue.js、FireBase、BootStrap4',
           contents2:
             'FireBaseのデータベースとログイン機能を使用。部屋やパスワードも付けてみました。',
           url: 'https://chatapp-f1e5d.firebaseapp.com'
@@ -73,7 +73,7 @@ export default {
         {
           name: 'ブログサイト',
           image: require('@/assets/portfolio/blog.png'),
-          contents1: 'Nuxt.js、Vue.js、BootStrap4、vue-p5',
+          contents1: 'Nuxt.js(Vue.js)、BootStrap4、vue-p5',
           contents2:
             'Nuxt+Netlify+Contentsfulで作ったブログサイトです。P5.js(vue-p5)も使っています。',
           url: 'https://takablog-test.netlify.com/'
@@ -81,7 +81,7 @@ export default {
         {
           name: 'マークダウンエディター',
           image: require('@/assets/portfolio/mdeditor.png'),
-          contents1: 'electron、Vue.js、BootStrap4',
+          contents1: 'Electron、Vue.js、BootStrap4',
           contents2:
             'electron-vueで作ったデスクトップマークダウンエディターです。スライドモードもつけてみました。',
           url: 'https://github.com/taka1156/markdown-editor'
@@ -96,7 +96,7 @@ export default {
         {
           name: 'Qiita記事の吸い出し',
           image: require('@/assets/portfolio/noimg.png'),
-          contents1: 'python、pyinstaller',
+          contents1: 'Python、pyinstaller',
           contents2:
             'Qiitaで気になった記事を個人利用の範囲内でローカルに保持するため、作成(私的使用のための複製)',
           url: 'https://github.com/taka1156/QiitaMarkDown'
